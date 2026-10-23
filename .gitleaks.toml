@@ -1,0 +1,17 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allowlist test suites, mock fixtures, sample apps, and documentation examples"
+paths = [
+  '''(^|/)__tests__/''',
+  '''(^|/)__mocks__/''',
+  '''(^|/)__fixtures__/''',
+  '''(^|/)tests?/''',
+  '''(^|/)examples/''',
+  '''(^|/)packages/sanity-suite/''',
+  '''(^|/)sanity-suite/''',
+  '''(^|/)README\.md$''',
+  '''(^|/)packages/analytics-js/src/indexPOCToDelete\.ts$''',
+  '''(^|/)packages/analytics-js/src/index\.ts$''',
+]
